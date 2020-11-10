@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    username: user_kotlin
+    password: kotlin
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://192.168.18.79:6432/sb_kotlin?currentSchema=d1
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    open-in-view: false
+  thymeleaf:
+    cache: false
